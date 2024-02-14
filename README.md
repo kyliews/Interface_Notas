@@ -1,35 +1,28 @@
-Interface que permite criar uma aplicação para gerenciar informações de alunos, incluindo adição, remoção e visualização de dados. Apresenta os dados dispostos em uma tabela.
+Interface that allows creating an application to manage student information, including adding, removing, and viewing data. Presents data arranged in a table.
 
-Principais Componentes:
+Main Components:
 
-FormularioEscolarApp:
+SchoolFormApp:
 
-Janela principal que contém os elementos da interface gráfica.
-Campos para inserir informações do aluno (nome, série, notas 1 e 2).
-Botões para adicionar, deletar e visualizar a tabela.
+Main window containing elements of the graphical interface. Fields to enter student information (name, grade, grades 1 and 2). Buttons to add, delete, and view the table.
 
-Métodos:
+Methods:
 
-• adicionar_aluno(): 
-Adiciona um novo aluno à lista e atualiza a tabela.
+• add_student(): Adds a new student to the list and updates the table.
 
-• deletar_aluno(): 
-Deleta o aluno selecionado na tabela.
+• delete_student(): Deletes the selected student in the table.
 
-• mostrar_tabela(): 
-Atualiza a tabela com as informações dos alunos.
+• show_table(): Updates the table with student information.
 
-Como Executar
+How to Run:
 
-1. Clone o repositório:
+1.Clone the repository:
+git clone https://github.com/kyliews/SchoolFormApp
 
-git clone https://github.com/kyliews/Interface_Notas
+2.Navigate to the project directory:
+cd StudentRegistration.py
 
-2. Navegue até o diretório do projeto:
+3.Run the Python script: 
+python StudentRegistration.py
 
-cd CadastroAlunos.py
-
-3. Execute o script Python:
-python CadastroAlunos.py
-
-Interaja com a interface para gerenciar as informações dos alunos.
+Interact with the interface to manage student information.
