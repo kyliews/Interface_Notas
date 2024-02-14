@@ -16,13 +16,13 @@ Methods:
 
 How to Run:
 
-1.Clone the repository:
+1. Clone the repository:
 git clone https://github.com/kyliews/SchoolFormApp
 
-2.Navigate to the project directory:
+2. Navigate to the project directory:
 cd StudentRegistration.py
 
-3.Run the Python script: 
+3. Run the Python script: 
 python StudentRegistration.py
 
 Interact with the interface to manage student information.
